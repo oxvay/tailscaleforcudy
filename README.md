@@ -1,4 +1,4 @@
-<img width="1056" height="294" alt="Pasted image 20261018170430" src="https://github.com/user-attachments/assets/c75f1997-2640-45b4-adc4-3f9ba3c193a4" />Скачать скрипт:
+Скачать скрипт:
 ```Bash
 wget -O /tmp/tailscale-install.sh \
   'https://raw.githubusercontent.com/oxvay/tailscaleforcudy/master/script.sh' \
