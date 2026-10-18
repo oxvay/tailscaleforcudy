@@ -1,7 +1,8 @@
 #!/bin/sh
 set -e
 
-LAN_SUBNET='192.168.X.0/24'
+printf 'Введите подсеть LAN (например, 192.168.7.0/24): '
+read -r LAN_SUBNET
 
 # Backup firewall configuration
 BACKUP_DIR="$(mktemp -d /root/tailscale-lan-backup.XXXXXX)"
